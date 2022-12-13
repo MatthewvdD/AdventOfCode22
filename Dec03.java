@@ -94,7 +94,8 @@ public class Dec03 {
 
     public static int getPrio(char c) {
         int p = c;
-
+        
+        //checks if the char c is a lowercase letter or an uppercase letter and subtracts the necessary amount
         if(p < 95) {
             return p -= 38;
         }
